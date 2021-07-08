@@ -32,7 +32,7 @@ class fruitBowl:
     def allBananaFruits(self):
         for fruitIndex in self.allfruits:
             if fruitIndex == "Banana":
-                return ("Banana Bowl having" + " " + str(self.allfruits.count("Banana")) + " " + "Banana")
+                return (self.allfruits.count("Banana"))
 
 
 class fruit:
@@ -74,7 +74,7 @@ class Orange(fruit):
         if self.taste=="sore":
             for fruitIndex in fruits:
                 if fruitIndex == "Orange" or self.colour == "Orange":
-                    return ("Orange Bowl having" + " " + str(fruits.count("Orange")) + " " + "Orange")
+                    return (fruits.count("Orange"))
 
 
 
